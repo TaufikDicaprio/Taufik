@@ -1,0 +1,64 @@
+#about {
+  background-color: #222831;
+ 
+  position: relative;
+  font-size: 1.2rem;
+  color: white;
+}
+#about > .wrapper {
+  margin: auto;
+  width: 50%;
+}
+#about > .wrapper > h3 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #ffffff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#about > .wrapper > p {
+  text-align: center;
+}
+
+#about > .wrapper > h4 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  color: #fcf3f3;
+}
+.skills {
+  text-align: center;
+}
+.skills > svg {
+  display: inline-block;
+  color: #e7eaed;
+  width: 50px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.skills > svg:hover {
+  color: #aa392d;
+}
+
+@media only screen and (max-width: 1000px) {
+  #about > .wrapper {
+    width: 80%;
+  }
+}
+.quote {
+  text-align: center; /* Memusatkan teks */
+  margin: 20px 0; /* Menambahkan margin atas dan bawah */
+  font-style: italic; /* Menambahkan gaya miring untuk kutipan */
+}
+
+.quote h4 {
+  margin: 10px 0; /* Menambahkan margin untuk judul kutipan */
+}
